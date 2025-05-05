@@ -30,6 +30,19 @@ import { EvacuationManageComponent } from './components/resource/resource-dashbo
 import { AgencyStrengthComponent } from './components/resource/resource-dashboard/agency-strength/agency-strength.component';
 import { OperatorworkalocationComponent } from './components/resource/resource-dashboard/operatorworkalocation/operatorworkalocation.component';
 import { FoodcourtSecondComponent } from './components/resource/resource-dashboard/foodcourt-second/foodcourt-second.component';
+import { ShopFloorNewComponent } from './components/resource/resource-dashboard/shop-floor-new/shop-floor-new.component';
+import { WorkStationComponent } from './components/resource/resource-dashboard/work-station 001/work-station.component';
+import { ProductionPerformenceComponent } from './components/resource/resource-dashboard/production-performence/production-performence.component';
+import { CanteenMenuComponent } from './components/resource/resource-dashboard/canteen-menu/canteen-menu.component';
+import { MttrMtbfComponent } from './components/resource/resource-dashboard/mttr-mtbf/mttr-mtbf.component';
+import { PDCComponent } from './components/resource/resource-dashboard/pdc/pdc.component';
+import { OperationReportComponent } from './components/resource/resource-dashboard/operation-report/operation-report.component';
+import { OEEComponent } from './components/resource/resource-dashboard/oee/oee.component';
+import { BreakdownReportComponent } from './components/resource/resource-dashboard/breakdown-report/breakdown-report.component';
+import { QualityReportComponent } from './components/resource/resource-dashboard/quality-report/quality-report.component';
+import { OEEReportComponent } from './components/resource/resource-dashboard/oee-report/oee-report.component';
+import { OperatorSupervisorPerformanceComponent } from './components/resource/resource-dashboard/operator-supervisor-performance/operator-supervisor-performance.component';
+import { SheduledActualComponent } from './components/resource/resource-dashboard/sheduled-actual/sheduled-actual.component';
 
 @NgModule({
     imports: [
@@ -69,6 +82,19 @@ import { FoodcourtSecondComponent } from './components/resource/resource-dashboa
                     { path: 'agency_strength', component: AgencyStrengthComponent, canActivate: [authGuard] },
                     { path: 'operator_work_alocation', component: OperatorworkalocationComponent, canActivate: [authGuard] },
                     { path: 'foodcourt_second', component: FoodcourtSecondComponent, canActivate: [authGuard] },
+                    { path: 'shopfloor_new', component: ShopFloorNewComponent, canActivate: [authGuard] },
+                    { path: 'work_station1', component: WorkStationComponent, canActivate: [authGuard] },
+                    { path: 'production_performance', component: ProductionPerformenceComponent, canActivate: [authGuard] },
+                    { path: 'mttr_mtbf', component: MttrMtbfComponent, canActivate: [authGuard] },
+                    { path: 'sheduled_actual', component: SheduledActualComponent, canActivate: [authGuard] },
+                    { path: 'operator_supervisor_performance', component: OperatorSupervisorPerformanceComponent, canActivate: [authGuard] },
+                    { path: 'oee', component: OEEComponent, canActivate: [authGuard] },
+                    { path: 'quality_report', component: QualityReportComponent, canActivate: [authGuard] },
+                    { path: 'breakdown_report', component: BreakdownReportComponent, canActivate: [authGuard] },
+                    { path: 'oee_report', component: OEEReportComponent, canActivate: [authGuard] },
+                    { path: 'operation_report', component: OperationReportComponent, canActivate: [authGuard] },
+                    { path: 'pdc', component: PDCComponent, canActivate: [authGuard] },
+                    { path: 'canteenmenu', component: CanteenMenuComponent, canActivate: [authGuard] },
                     // { path: 'missed_punch', component: MissedPunchComponent, canActivate: [authGuard] },
                     { path: 'mandays_report', component: MandaysComponent, canActivate: [authGuard] },
 

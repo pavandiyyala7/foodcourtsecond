@@ -163,6 +163,19 @@ import { EvacuationManageComponent } from './components/resource/resource-dashbo
 import { AgencyStrengthComponent } from './components/resource/resource-dashboard/agency-strength/agency-strength.component';
 import { OperatorworkalocationComponent } from './components/resource/resource-dashboard/operatorworkalocation/operatorworkalocation.component';
 import { FoodcourtSecondComponent } from './components/resource/resource-dashboard/foodcourt-second/foodcourt-second.component';
+import { ShopFloorNewComponent } from './components/resource/resource-dashboard/shop-floor-new/shop-floor-new.component';
+import { WorkStationComponent } from './components/resource/resource-dashboard/work-station 001/work-station.component';
+import { ProductionPerformenceComponent } from './components/resource/resource-dashboard/production-performence/production-performence.component';
+import { CanteenMenuComponent } from './components/resource/resource-dashboard/canteen-menu/canteen-menu.component';
+import { MttrMtbfComponent } from './components/resource/resource-dashboard/mttr-mtbf/mttr-mtbf.component';
+import { SheduledActualComponent } from './components/resource/resource-dashboard/sheduled-actual/sheduled-actual.component';
+import { OperatorSupervisorPerformanceComponent } from './components/resource/resource-dashboard/operator-supervisor-performance/operator-supervisor-performance.component';
+import { OEEComponent } from './components/resource/resource-dashboard/oee/oee.component';
+import { QualityReportComponent } from './components/resource/resource-dashboard/quality-report/quality-report.component';
+import { BreakdownReportComponent } from './components/resource/resource-dashboard/breakdown-report/breakdown-report.component';
+import { OEEReportComponent } from './components/resource/resource-dashboard/oee-report/oee-report.component';
+import { OperationReportComponent } from './components/resource/resource-dashboard/operation-report/operation-report.component';
+import { PDCComponent } from './components/resource/resource-dashboard/pdc/pdc.component';
 
 
 
@@ -193,6 +206,19 @@ import { FoodcourtSecondComponent } from './components/resource/resource-dashboa
         AppRoutingModule,
         AppLayoutModule,
         
+        SheduledActualComponent,
+        OperatorSupervisorPerformanceComponent,
+        OEEComponent,
+        QualityReportComponent,
+        BreakdownReportComponent,
+        OEEReportComponent,
+        OperationReportComponent,
+        PDCComponent,
+        MttrMtbfComponent,
+        CanteenMenuComponent,
+        ProductionPerformenceComponent,
+        WorkStationComponent,
+        ShopFloorNewComponent,
         FoodcourtSecondComponent,
         EmployeeStrengthComponent,
         DepStrengthComponent,
